@@ -1,0 +1,4 @@
+(sym_lib_table
+	(version 7)
+	(lib (name "BB8 Symbols") (type "KiCad") (uri "${KIPRJMOD}/BB8_Sym") (options "") (descr ""))
+)

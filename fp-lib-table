@@ -1,0 +1,4 @@
+(fp_lib_table
+	(version 7)
+	(lib (name "BB8 Footprints") (type "KiCad") (uri "${KIPRJMOD}/BB8_FP") (options "") (descr ""))
+)
