@@ -732,13 +732,13 @@
         "uuid": "9177cfca-6009-48b2-9448-13eb174bc496"
       }
     ],
-    "used_designators": "H1-4,#PWR39-42",
+    "used_designators": "D2",
     "variants": []
   },
   "sheets": [
     [
       "9177cfca-6009-48b2-9448-13eb174bc496",
-      "BB-8"
+      "Project_Roll"
     ]
   ],
   "text_variables": {},
