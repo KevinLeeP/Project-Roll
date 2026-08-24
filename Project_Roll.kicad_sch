@@ -4427,16 +4427,16 @@
 		(uuid "1d6c32c1-9691-490c-bcaa-6fcebd59ea06")
 	)
 	(junction
-		(at 57.15 54.61)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "22226bd7-ae22-4a07-82eb-ac38005c273f")
-	)
-	(junction
 		(at 40.64 54.61)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "2357bbbf-02f8-4adf-9138-f91fd62e95d8")
+	)
+	(junction
+		(at 53.34 54.61)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "2a84791f-27c2-47d3-b095-6b7dfd2e8b38")
 	)
 	(junction
 		(at 226.06 38.1)
@@ -4511,6 +4511,12 @@
 		(uuid "ad9c3f5d-795a-4b7d-9355-d3ffa4b3ec97")
 	)
 	(junction
+		(at 53.34 34.29)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "bd6699b1-a1bd-4929-9e4c-c7cfa88e2194")
+	)
+	(junction
 		(at 158.75 33.02)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4557,12 +4563,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e23a12fa-20a5-4b20-b942-f798a28d15c5")
-	)
-	(junction
-		(at 57.15 34.29)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "fa8f5a67-eb45-4cf7-9ee5-4b44788d85a5")
 	)
 	(junction
 		(at 35.56 82.55)
@@ -4643,6 +4643,16 @@
 			(type default)
 		)
 		(uuid "031fdf6a-a0c4-4bb8-854e-02b7071d4a9c")
+	)
+	(wire
+		(pts
+			(xy 53.34 34.29) (xy 58.42 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "07a8391f-9b19-4041-8453-1eed853e6074")
 	)
 	(wire
 		(pts
@@ -5106,7 +5116,7 @@
 	)
 	(wire
 		(pts
-			(xy 57.15 34.29) (xy 57.15 40.64)
+			(xy 53.34 34.29) (xy 53.34 40.64)
 		)
 		(stroke
 			(width 0)
@@ -5183,6 +5193,16 @@
 			(type default)
 		)
 		(uuid "4ff7c923-026a-4331-bd8b-0dcc9269c339")
+	)
+	(wire
+		(pts
+			(xy 53.34 54.61) (xy 66.04 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "50fd22bc-64bf-4414-a618-393b20dadecf")
 	)
 	(wire
 		(pts
@@ -5316,7 +5336,7 @@
 	)
 	(wire
 		(pts
-			(xy 40.64 34.29) (xy 43.18 34.29)
+			(xy 40.64 34.29) (xy 53.34 34.29)
 		)
 		(stroke
 			(width 0)
@@ -5606,7 +5626,7 @@
 	)
 	(wire
 		(pts
-			(xy 40.64 54.61) (xy 57.15 54.61)
+			(xy 40.64 54.61) (xy 53.34 54.61)
 		)
 		(stroke
 			(width 0)
@@ -5633,16 +5653,6 @@
 			(type default)
 		)
 		(uuid "855893d5-adf4-4b8a-882f-fb2046f849c4")
-	)
-	(wire
-		(pts
-			(xy 57.15 54.61) (xy 66.04 54.61)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8723983e-a504-4aac-b25d-c7605f0956dd")
 	)
 	(wire
 		(pts
@@ -5753,16 +5763,6 @@
 			(type default)
 		)
 		(uuid "942f5e38-fa08-4a35-8227-f20f99fd6b09")
-	)
-	(wire
-		(pts
-			(xy 50.8 34.29) (xy 57.15 34.29)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "94d34523-cac0-42e9-855e-4a84fa44f639")
 	)
 	(wire
 		(pts
@@ -6006,6 +6006,16 @@
 	)
 	(wire
 		(pts
+			(xy 66.04 34.29) (xy 71.12 34.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "af1c6353-3135-412d-8c05-ec56b092f9cb")
+	)
+	(wire
+		(pts
 			(xy 43.18 113.03) (xy 44.45 113.03)
 		)
 		(stroke
@@ -6033,16 +6043,6 @@
 			(type default)
 		)
 		(uuid "b28ab582-f72a-41ff-9f43-b018101078c9")
-	)
-	(wire
-		(pts
-			(xy 57.15 34.29) (xy 71.12 34.29)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b31e813a-b44c-4842-a60e-cfd9ffa17a15")
 	)
 	(wire
 		(pts
@@ -6116,7 +6116,7 @@
 	)
 	(wire
 		(pts
-			(xy 57.15 48.26) (xy 57.15 54.61)
+			(xy 53.34 48.26) (xy 53.34 54.61)
 		)
 		(stroke
 			(width 0)
@@ -9333,86 +9333,6 @@
 			(project "Project_Roll"
 				(path "/9177cfca-6009-48b2-9448-13eb174bc496"
 					(reference "#PWR026")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:Fuse")
-		(at 46.99 34.29 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "19ebde64-18e8-44be-95e7-e338d0603f8c")
-		(property "Reference" "F1"
-			(at 46.99 27.94 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "20A"
-			(at 46.99 30.48 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "BB8 Footprints:CONN_3557-2_KEY"
-			(at 46.99 36.068 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 46.99 34.29 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Fuse"
-			(at 46.99 34.29 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "ce168797-d1ae-4ec4-beff-129d945a99c9")
-		)
-		(pin "1"
-			(uuid "f6d04f34-1fc5-4a9a-94f2-88f0e8b8a3a6")
-		)
-		(instances
-			(project "Project_Roll"
-				(path "/9177cfca-6009-48b2-9448-13eb174bc496"
-					(reference "F1")
 					(unit 1)
 				)
 			)
@@ -13356,6 +13276,86 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:Fuse")
+		(at 62.23 34.29 90)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "8d64f38f-e2bb-45ca-ac5a-87632a828ac7")
+		(property "Reference" "F1"
+			(at 62.23 27.94 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "20A"
+			(at 62.23 30.48 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "BB8 Footprints:CONN_3557-2_KEY"
+			(at 62.23 36.068 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 62.23 34.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Fuse"
+			(at 62.23 34.29 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "2"
+			(uuid "98b4b649-c24b-4315-97f6-f126d3829b17")
+		)
+		(pin "1"
+			(uuid "ed037c61-e30f-4d73-9dd7-48b86094c75f")
+		)
+		(instances
+			(project "Project_Roll"
+				(path "/9177cfca-6009-48b2-9448-13eb174bc496"
+					(reference "F1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Connector_Generic:Conn_01x02")
 		(at 31.75 43.18 0)
 		(mirror y)
@@ -16753,7 +16753,7 @@
 	)
 	(symbol
 		(lib_id "Diode:SMAJ15CA")
-		(at 57.15 44.45 270)
+		(at 53.34 44.45 270)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -16764,7 +16764,7 @@
 		(fields_autoplaced yes)
 		(uuid "e7a7d95c-e71d-44ec-99aa-aaf9df249839")
 		(property "Reference" "D2"
-			(at 59.69 43.1799 90)
+			(at 55.88 43.1799 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16775,7 +16775,7 @@
 			)
 		)
 		(property "Value" "SMAJ15CA"
-			(at 59.69 45.7199 90)
+			(at 55.88 45.7199 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -16786,7 +16786,7 @@
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_SMA"
-			(at 52.07 44.45 0)
+			(at 48.26 44.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16797,7 +16797,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.littelfuse.com/media?resourcetype=datasheets&itemid=75e32973-b177-4ee3-a0ff-cedaf1abdb93&filename=smaj-datasheet"
-			(at 57.15 44.45 0)
+			(at 53.34 44.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16808,7 +16808,7 @@
 			)
 		)
 		(property "Description" "400W bidirectional Transient Voltage Suppressor, 15.0Vr, SMA(DO-214AC)"
-			(at 57.15 44.45 0)
+			(at 53.34 44.45 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
