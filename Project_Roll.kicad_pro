@@ -728,17 +728,35 @@
     "top_level_sheets": [
       {
         "filename": "Project_Roll.kicad_sch",
-        "name": "Project_Roll",
+        "name": "Power, Voltage Meter",
         "uuid": "9177cfca-6009-48b2-9448-13eb174bc496"
+      },
+      {
+        "filename": "mcu,_gyro.kicad_sch",
+        "name": "MCU, Gyro",
+        "uuid": "f1add6c2-a4c9-4e6a-9463-966c8b21541e"
+      },
+      {
+        "filename": "breakout_connectors.kicad_sch",
+        "name": "Breakout Connectors, Mounting Holes",
+        "uuid": "d179113d-8e21-4b5d-8c83-3bf731f8760a"
       }
     ],
-    "used_designators": "F1",
+    "used_designators": "F1-9,U2-4,D4-11,#PWR9-42,R5-13,J2-16,H1-4,C7-11",
     "variants": []
   },
   "sheets": [
     [
       "9177cfca-6009-48b2-9448-13eb174bc496",
-      "Project_Roll"
+      "Power, Voltage Meter"
+    ],
+    [
+      "f1add6c2-a4c9-4e6a-9463-966c8b21541e",
+      "MCU, Gyro"
+    ],
+    [
+      "d179113d-8e21-4b5d-8c83-3bf731f8760a",
+      "Breakout Connectors, Mounting Holes"
     ]
   ],
   "text_variables": {},
